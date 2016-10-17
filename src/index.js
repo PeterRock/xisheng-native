@@ -31,7 +31,6 @@ export { Button };
 export { Card };
 export { Badge };
 export { Note };
-export { Range };
 export { Content };
 export { Container };
 
@@ -48,7 +47,6 @@ export default {
   Card,
   Badge,
   Note,
-  Range,
   Content,
   Container,
 };
