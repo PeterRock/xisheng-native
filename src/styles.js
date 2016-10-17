@@ -26,7 +26,7 @@ export const colors = {
   darkActive: '#343434',
 };
 
-export const carbonStyles = {
+export const xishengStyles = {
 
   // container
   container: {

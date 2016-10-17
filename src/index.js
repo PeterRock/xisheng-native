@@ -15,7 +15,7 @@ import Content from './content';
 import Container from './container';
 
 export {
-  carbonStyles,
+  xishengStyles,
   colors,
 } from './styles';
 
