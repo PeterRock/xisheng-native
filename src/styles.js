@@ -10,12 +10,12 @@ export const colors = {
   lightActive: '#fff', // @todo: update active color
   stable: '#f8f8f8',
   stableActive: '#e0e0e0',
-  primary: '#337AF9',
-  primaryActive: '#3474e1',
+  primary: '#f88f47',
+  primaryActive: '#f88536',
+  secondary: '#f05d25',
+  secondaryActive: '#e35c29',
   calm: '#11c1f3',
   calmActive: '#11c1f3', // @todo: update active color
-  secondary: '#22DD5E',
-  secondaryActive: '#2ec95c',
   energized: '#FFC600',
   energizedActive: '#FFC600', // @todo: update active color
   danger: '#F83B36',
