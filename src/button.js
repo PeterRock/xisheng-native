@@ -75,7 +75,7 @@ export default class Button extends Component {
     const contents = (this.props.text) ? this.props.text : this.props.children;
     const size = (this.props.size) ? (`btn${this.capitalizeFirstLetter(this.props.size)}`) : null;
     const full = (this.props.full) ? 'btnFull' : null;
-    const shadow = (this.props.shadow) ? this.props.shadow : true;
+    const shadow = (this.props.shadow !== null) ? this.props.shadow : true;
     const round = (this.props.round) ? 'btnRound' : null;
     const clear = (this.props.clear) ? 'btnClear' : null;
     const outline = (this.props.outline) ? 'btnOutline' : null;
@@ -111,7 +111,6 @@ export default class Button extends Component {
         </TouchableOpacity>
       );
     }
-    console.log(color, bgColor, bgActiveColor)
     return (
       <TouchableHighlight
         underlayColor={colors[bgActiveColor]}
