@@ -8,10 +8,10 @@ import {
 } from 'react-native';
 
 import {
-  xishengStyles,
+  carbonStyles,
 } from '../styles';
 
-const cs = StyleSheet.create(xishengStyles);
+const cs = StyleSheet.create(carbonStyles);
 
 const propTypes = {
   children: PropTypes.oneOfType([

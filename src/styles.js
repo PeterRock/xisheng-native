@@ -41,32 +41,26 @@ export const xishengStyles = {
   // typography
   h1: {
     marginBottom: 10,
-    fontWeight: '500',
     fontSize: 36,
   },
   h2: {
     marginBottom: 10,
-    fontWeight: '500',
     fontSize: 30,
   },
   h3: {
     marginBottom: 10,
-    fontWeight: '500',
     fontSize: 24,
   },
   h4: {
     marginBottom: 10,
-    fontWeight: '500',
     fontSize: 18,
   },
   h5: {
     marginBottom: 10,
-    fontWeight: '500',
     fontSize: 14,
   },
   h6: {
     marginBottom: 10,
-    fontWeight: '500',
     fontSize: 12,
   },
   p: {
@@ -85,6 +79,12 @@ export const xishengStyles = {
   },
   textRight: {
     textAlign: 'right',
+  },
+  textBold: {
+    fontWeight: '500',
+  },
+  textThin: {
+    fontWeight: '300',
   },
 
   // button
@@ -210,6 +210,9 @@ export const xishengStyles = {
 
   // colors
   // light, stable, primary, calm, secondary, energized, danger, royal, dark
+  clearBg: {
+    backgroundColor: 'transparent'
+  },
   light: {
     color: colors.light,
   },
