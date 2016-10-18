@@ -12,17 +12,18 @@ import {
 } from 'react-native';
 
 import {
-  carbonStyles,
+  xishengStyles,
   colors,
 } from './styles';
 
-const cs = StyleSheet.create(carbonStyles);
+const cs = StyleSheet.create(xishengStyles);
 
 const propTypes = {
   children: PropTypes.node,
   text: PropTypes.string,
   size: PropTypes.string,
   full: PropTypes.bool,
+  shadow: PropTypes.bool,
   round: PropTypes.bool,
   clear: PropTypes.bool,
   outline: PropTypes.bool,
@@ -74,6 +75,7 @@ export default class Button extends Component {
     const contents = (this.props.text) ? this.props.text : this.props.children;
     const size = (this.props.size) ? (`btn${this.capitalizeFirstLetter(this.props.size)}`) : null;
     const full = (this.props.full) ? 'btnFull' : null;
+    const shadow = (this.props.shadow) ? this.props.shadow : true;
     const round = (this.props.round) ? 'btnRound' : null;
     const clear = (this.props.clear) ? 'btnClear' : null;
     const outline = (this.props.outline) ? 'btnOutline' : null;
@@ -109,6 +111,7 @@ export default class Button extends Component {
         </TouchableOpacity>
       );
     }
+    console.log(color, bgColor, bgActiveColor)
     return (
       <TouchableHighlight
         underlayColor={colors[bgActiveColor]}
@@ -116,7 +119,12 @@ export default class Button extends Component {
         onShowUnderlay={this.highlight}
         onHideUnderlay={this.unhighlight}
         {...this.props}
-        style={[bgColor && cs[bgColor], !full && { borderRadius: 2 }, round && cs[round]]}
+        style={[bgColor && cs[bgColor], !full && { borderRadius: 2 }, round && cs[round], 
+          shadow && { // 阴影
+              shadowColor: colors[color],
+              shadowOpacity: 0.5,
+              shadowOffset: {width: 0, height: 5} }
+        ]}
       >
         <View
           style={[

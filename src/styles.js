@@ -87,46 +87,6 @@ export const xishengStyles = {
     textAlign: 'right',
   },
 
-  // toolbar
-  toolbar: {
-    height: 44,
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  toolbarHeader: {
-    height: 64,
-    paddingTop: 20,
-  },
-  toolbarFooter: {
-    // stuff
-  },
-  toolbarTitle: {
-    fontWeight: '600',
-    ...Platform.select({
-      ios: {
-        fontSize: 17,
-      },
-      android: {
-        fontSize: 20,
-      },
-    }),
-  },
-  toolbarLeft: {
-    flexDirection: 'row',
-    justifyContent: 'flex-start',
-    overflow: 'hidden',
-    paddingRight: 6,
-    paddingVertical: 8,
-  },
-  toolbarRight: {
-    flexDirection: 'row',
-    justifyContent: 'flex-end',
-    overflow: 'hidden',
-    paddingLeft: 6,
-    paddingVertical: 8,
-  },
-
   // button
   btn: {
     flexDirection: 'row',

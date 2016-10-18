@@ -10,10 +10,10 @@ import {
 
 
 import {
-  carbonStyles,
+  xishengStyles,
 } from './styles';
 
-const cs = StyleSheet.create(carbonStyles);
+const cs = StyleSheet.create(xishengStyles);
 
 const propTypes = {
   color: PropTypes.string,
