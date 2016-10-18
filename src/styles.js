@@ -24,6 +24,10 @@ export const colors = {
   royalActive: '#7E59FF', // @todo: update active color
   dark: '#222',
   darkActive: '#343434',
+  muted: '#878787',
+  mutedActive: '#a1a1a1',
+  success: '#14b528',
+  successActive: '#0da921',
 };
 
 export const xishengStyles = {
@@ -35,6 +39,10 @@ export const xishengStyles = {
   },
   row: {
     flexDirection: 'row',
+    justifyContent: 'center',
+  },
+  blockCenter: {
+    alignItems: 'center',
     justifyContent: 'center',
   },
 
@@ -294,6 +302,18 @@ export const xishengStyles = {
   darkBgActive: {
     backgroundColor: colors.darkActive,
   },
+  success: {
+    color: colors.success,
+  },
+  successBg: {
+    backgroundColor: colors.success,
+  },
+  muted: {
+    color: colors.muted,
+  },
+  mutedBg: {
+    backgroundColor: colors.muted,
+  },
 
   // margin
   margin: {
@@ -316,6 +336,12 @@ export const xishengStyles = {
   },
   marginLeft: {
     marginLeft: 10,
+  },
+  marginLg: {
+    margin: 15,
+  },
+  marginXl: {
+    margin: 20,
   },
 
   // padding
