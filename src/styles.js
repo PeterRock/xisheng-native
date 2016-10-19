@@ -9,7 +9,7 @@ export const colors = {
   light: '#fff',
   lightActive: '#fff', // @todo: update active color
   stable: '#f8f8f8',
-  stableActive: '#e0e0e0',
+  stableActive: '#efefef',
   primary: '#f88f47',
   primaryActive: '#f88536',
   secondary: '#f05d25',
