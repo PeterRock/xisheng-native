@@ -48,27 +48,21 @@ export const xishengStyles = {
 
   // typography
   h1: {
-    marginBottom: 10,
     fontSize: 36,
   },
   h2: {
-    marginBottom: 10,
     fontSize: 30,
   },
   h3: {
-    marginBottom: 10,
     fontSize: 24,
   },
   h4: {
-    marginBottom: 10,
     fontSize: 18,
   },
   h5: {
-    marginBottom: 10,
     fontSize: 14,
   },
   h6: {
-    marginBottom: 10,
     fontSize: 12,
   },
   p: {

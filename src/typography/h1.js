@@ -28,7 +28,7 @@ export default function H1(props) {
   return (
     <Text
       {...props}
-      style={[cs.h1, props.style]}
+      style={[cs.h1, cs.marginBottom, props.style]}
     >
       {props.children}
     </Text>
