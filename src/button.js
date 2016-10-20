@@ -47,7 +47,10 @@ export default class Button extends Component {
   }
 
   getTextColor(color, clear, outline) {
-    if (outline && this.state.active) {
+    if (outline && color && color === 'stable') {
+      return 'dark';
+    }
+    else if (outline && this.state.active) {
       return 'light';
     } else if (outline && !this.state.active) {
       return color;
