@@ -65,6 +65,9 @@ export const xishengStyles = {
   h6: {
     fontSize: 12,
   },
+  small: {
+    fontSize: 10,
+  },
   p: {
     marginBottom: 10,
     flexDirection: 'row',
