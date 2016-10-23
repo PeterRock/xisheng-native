@@ -14,7 +14,7 @@ export const colors = {
   primaryActive: '#f88536',
   secondary: '#f05d25',
   secondaryActive: '#e35c29',
-  calm: '#11c1f3',
+  calm: '#0ebaeb',
   calmActive: '#11c1f3', // @todo: update active color
   energized: '#FFC600',
   energizedActive: '#FFC600', // @todo: update active color
