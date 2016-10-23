@@ -1,7 +1,8 @@
-import React from 'react';
+import React,{
+  PropTypes,
+} from 'react';
 
 import {
-  PropTypes,
   StyleSheet,
   TouchableHighlight,
   View,
