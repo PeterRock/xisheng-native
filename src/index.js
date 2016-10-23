@@ -14,6 +14,11 @@ import Note from './note';
 import Content from './content';
 import Container from './container';
 
+import ItemContent from './list/item-content';
+import ItemHeaderText from './list/item-header-text';
+import Item from './list/item';
+import List from './list/list';
+
 export {
   xishengStyles,
   colors,
