@@ -130,7 +130,6 @@ export default class Button extends Component {
       >
         <View
           style={[
-            cs.container,
             cs.btn,
             size && cs[size],
             full && cs[full],
