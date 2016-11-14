@@ -39,6 +39,11 @@ export { Note };
 export { Content };
 export { Container };
 
+export { ItemContent };
+export { ItemHeaderText };
+export { Item };
+export { List };
+
 export default {
   H1,
   H2,
@@ -54,4 +59,8 @@ export default {
   Note,
   Content,
   Container,
+  List,
+  Item,
+  ItemHeaderText,
+  ItemContent
 };
